@@ -1,0 +1,16 @@
+
+
+Here is my Assignment for shell program .
+
+i have implemented  the following
+ 1) Normal command , create process and execute
+  2) back ground process
+  3)  Pipeline , multiple pipeline
+  4) ; in the commandline
+  5) cd command , for the follwoing cd ~ , cd , cd pathname
+  6) output redirection , append , combination of redirection and pipe
+  7) input redirection , input direction with pipe working [ except sort < f1 | head -1  : forget to test this scenario]
+  8) user preferred prompt by passing value at run time
+  9) exit / ctrlD to exit Shell
+  10) if any wrong input is given in pipe , sending SIGQUIT signal to the process.
+  11) Any wrong position of | , > , < will throw error.
